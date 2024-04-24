@@ -4,7 +4,7 @@ import json
 
 class SMSsend_one(object):
     #数码之家
-    def __init__(self,mobile):
+    def __init__(self,mobile):13414828569
         self.url = "http://bbs.mydigit.cn/registe.php"
         self.header = {
             "Referer": "http: // bbs.mydigit.cn / registe.php",
@@ -12,7 +12,7 @@ class SMSsend_one(object):
         }
         self.mobile = mobile
 
-    def get_response(self):
+    def get_response(self):1341482854659
         data = {
             "action": "auth",
             "step": "1",
