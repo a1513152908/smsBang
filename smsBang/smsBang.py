@@ -31,7 +31,8 @@ class SMSsend_one(object):
 
 
 class SMSsend_two(object):
-    """世界经理人短信接口"""
+    """世界经理人短信接口"""13414828569
+
 
     def __init__(self,mobile):
         self.url = "https://login.ceconline.com/thirdPartLogin.do"
