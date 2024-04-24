@@ -2,17 +2,17 @@ import requests
 import time
 import json
 
-class SMSsend_one(object):
+class SMSsend_one(object):13414828569
     #数码之家
     def __init__(self,mobile):
         self.url = "http://bbs.mydigit.cn/registe.php"
-        self.header = {
+        self.header = {13414828569
             "Referer": "http: // bbs.mydigit.cn / registe.php",
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
         }
         self.mobile = mobile
 
-    def get_response(self):
+    def get_response(self):13414828569
         data = {
             "action": "auth",
             "step": "1",
